@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperMart - Online Grocery Shopping</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">Super<span>Mart</span></div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for products...">
+                <button>Search</button>
+            </div>
+            <div class="user-actions">
+                <div class="icon">👤</div>
+                <div class="icon wishlist-icon">❤️</div>
+                <div class="icon cart-icon">
+                    🛒
+                    <span class="cart-count">0</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</li></a>
+            <li> <a href="fruits-vegetables.html">Fruits & Vegetables</li></a>
+            <li><a href="dairy-eggs.html">Dairy & Eggs</li></a>
+            <li><a href="Bakery.html">Bakery</li></a>
+            <li><a href="Meat & Fish,html">Meat & Fish</li></a>
+            <li><a href="Snacks.html">Snacks</li></a>
+            <li><a href="Beverages.html">Beverages</li></a>
+            <li><a href="Household.html">Household</li></a>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Banner -->
+    <section class="hero">
+        <h1>Fresh Groceries Delivered to Your Door</h1>
+        <p>Shop the freshest produce, highest quality meats, and pantry staples at unbeatable prices</p>
+        <button>Shop Now</button>
+    </section>
+
+    <!-- Categories Section -->
+    <h2 class="section-title">Shop by Category</h2>
+    <div class="categories">
+        <div class="category-card">
+            <div class="category-img">🍎</div>
+            <div class="category-info">
+                <h3>Fruits</h3>
+                <p>100+ items</p>
+            </div>
+        </div>
+        <div class="category-card">
+            <div class="category-img">🥦</div>
+            <div class="category-info">
+                <h3>Vegetables</h3>
+                <p>80+ items</p>
+            </div>
+        </div>
+        <div class="category-card">
+            <div class="category-img">🥛</div>
+            <div class="category-info">
+                <h3>Dairy</h3>
+                <p>50+ items</p>
+            </div>
+        </div>
+        <div class="category-card">
+            <div class="category-img">🍞</div>
+            <div class="category-info">
+                <h3>Bakery</h3>
+                <p>40+ items</p>
+            </div>
+        </div>
+        <div class="category-card">
+            <div class="category-img">🥩</div>
+            <div class="category-info">
+                <h3>Meat</h3>
+                <p>60+ items</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Products Section -->
+    <h2 class="section-title">Popular Products</h2>
+    <div class="products">
+        <div class="product-card">
+            <div class="product-badge">Sale</div>
+            <div class="product-img">🍎</div>
+            <div class="product-info">
+                <h3>Fresh Red Apples (1kg)</h3>
+                <div class="product-price">
+                    <span class="current-price">$2.99</span>
+                    <span class="original-price">$3.49</span>
+                </div>
+                <div class="product-actions">
+                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="wishlist">❤️</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-img">🍌</div>
+            <div class="product-info">
+                <h3>Bananas (6 pieces)</h3>
+                <div class="product-price">
+                    <span class="current-price">$1.49</span>
+                </div>
+                <div class="product-actions">
+                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="wishlist">❤️</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-badge">New</div>
+            <div class="product-img">🥛</div>
+            <div class="product-info">
+                <h3>Organic Milk (1L)</h3>
+                <div class="product-price">
+                    <span class="current-price">$3.29</span>
+                </div>
+                <div class="product-actions">
+                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="wishlist">❤️</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-img">🍞</div>
+            <div class="product-info">
+                <h3>Whole Wheat Bread</h3>
+                <div class="product-price">
+                    <span class="current-price">$2.49</span>
+                    <span class="original-price">$2.99</span>
+                </div>
+                <div class="product-actions">
+                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="wishlist">❤️</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-img">🥚</div>
+            <div class="product-info">
+                <h3>Free Range Eggs (12)</h3>
+                <div class="product-price">
+                    <span class="current-price">$4.99</span>
+                </div>
+                <div class="product-actions">
+                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="wishlist">❤️</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-badge">Sale</div>
+            <div class="product-img">🍫</div>
+            <div class="product-info">
+                <h3>Dark Chocolate (100g)</h3>
+                <div class="product-price">
+                    <span class="current-price">$1.99</span>
+                    <span class="original-price">$2.49</span>
+                </div>
+                <div class="product-actions">
+                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="wishlist">❤️</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-img">🍪</div>
+            <div class="product-info">
+                <h3>Oatmeal Cookies (200g)</h3>
+                <div class="product-price">
+                    <span class="current-price">$2.29</span>
+                </div>
+                <div class="product-actions">
+                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="wishlist">❤️</button>
+                </div>
+            </div>
+        </div>
+        <div class="product-card">
+            <div class="product-img">🥤</div>
+            <div class="product-info">
+                <h3>Sparkling Water (6-pack)</h3>
+                <div class="product-price">
+                    <span class="current-price">$3.99</span>
+                </div>
+                <div class="product-actions">
+                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="wishlist">❤️</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-col">
+                <h3>SuperMart</h3>
+                <ul>
+                    <li>About Us</li>
+                    <li>Careers</li>
+                    <li>Press</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Help</h3>
+                <ul>
+                    <li>FAQs</li>
+                    <li>Contact Us</li>
+                    <li>Shipping Policy</li>
+                    <li>Returns & Refunds</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Account</h3>
+                <ul>
+                    <li>My Account</li>
+                    <li>Order History</li>
+                    <li>Wishlist</li>
+                    <li>Newsletter</li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contact</h3>
+                <ul>
+                    <li>123 Grocery St, City</li>
+                    <li>Phone: (123) 456-7890</li>
+                    <li>Email: info@supermart.com</li>
+                    <li>Open: 8AM - 10PM Daily</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2023 SuperMart. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Cart Modal -->
+    <div class="modal" id="cartModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>Your Shopping Cart</h2>
+                <button class="close-modal">&times;</button>
+            </div>
+            <div class="modal-body" id="cartItems">
+                <!-- Cart items will be added here dynamically -->
+                <div class="empty-cart-message">Your cart is empty</div>
+            </div>
+            <div class="modal-footer">
+                <div class="cart-total">
+                    <span>Total:</span>
+                    <span class="total-amount">$0.00</span>
+                </div>
+                <button class="checkout-btn">Proceed to Checkout</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
