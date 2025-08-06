@@ -25,7 +25,7 @@
         }
 
         body {
-            background-color: var(--bakery-bg);
+           
             color: var(--dark);
         }
 
@@ -49,7 +49,7 @@
             font-size: 24px;
             font-weight: bold;
             color: var(--primary);
-            text-decoration: none;
+            
         }
 
         .logo span {
@@ -91,8 +91,7 @@
             font-size: 20px;
             cursor: pointer;
             position: relative;
-            color: var(--dark);
-            text-decoration: none;
+           
         }
 
         .cart-count {
@@ -122,24 +121,26 @@
             list-style: none;
             gap: 20px;
         }
-
-        .nav-links li a {
-            color: white;
-            text-decoration: none;
+      .nav-links li a {
+            cursor: pointer;
             padding: 5px 10px;
-            border-radius: 5px;
             transition: background 0.3s;
+            color: white;
+            border: none;
+            text-decoration: none;
+            border-radius: 5px;
             text-transform: uppercase;
         }
+        
 
         .nav-links li a:hover {
             background-color: var(--primary);
         }
-
-        .nav-links li a.active {
+       .nav-links li a.active {
             background-color: var(--primary);
         }
-
+        
+     
         /* Breadcrumbs */
         .breadcrumbs {
             padding: 15px 5%;
@@ -566,15 +567,10 @@
         </ul>
     </nav>
 
-    <!-- Breadcrumbs -->
-    <div class="breadcrumbs">
-        <a href="index.html">Home</a>
-        <span>/</span>
-        <a href="bakery.html">Bakery</a>
-    </div>
+   
 
     <!-- Category Header -->
-    <div class="category-header">
+    <div class="hero">
         <h1>Fresh Bakery Goods</h1>
         <p>Daily baked breads, pastries and desserts made with the finest ingredients</p>
     </div>
